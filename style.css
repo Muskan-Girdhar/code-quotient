@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    font-family: "josefin Sans", sans-serif;
+    font-weight: 300;
+}
+html{
+    font-size: 62.5%;
+}
+.main-div
+{
+    width:100vw;
+    min-height: 100vh;
+    display:grid;
+    place-items:center;
+    background-color: hsl(206, 92%, 94%);
+}
+.inner-div
+{
+    width:45vw;
+    background-color: #ffff;
+    padding :3rem 8rem;
+    border-radius: 1rem;
+    box-shadow:0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+.inner-div h2{
+    font-size:3rem ;
+    font-weight:400 ;
+    margin: 1 rem 0 4rem 0;
+}
+
+.inner-div li{
+    font-size:2rem;
+    margin: 1rem;
+    list-style: none; 
+}
+.but1
+{
+ padding: 1rem 2rem;
+ outline: none;
+ font-size:2rem ;
+border-radius: 1rem;
+ margin:auto;
+ color:#ffff;
+ background-color:#74b9ff ;
+ margin-top: 4rem;
+
+}
+
+
+#showscore
+{
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding :3rem 4rem;
+    border-radius: 1rem;
+    box-shadow:0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+#showscore h3 
+{
+    font-size:2rem ;
+    text-align: center;
+}
+#showscore .btn 
+{
+    margin-top:2rem ;
+    background-color:  hsl(206, 92%, 94%);
+    color:red;
+    
+}
+
+#result
+{
+    font-size:2rem ;
+    font-weight:200 ;
+    display: block;
+    background-color: #95c4da;
+    margin-bottom: 3rem;
+    padding :1rem 1rem;
+    border-radius: 1rem;
+    text-align:center;
+    box-shadow:0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+.myques
+{
+    font-size:2rem ;
+    font-weight:50 ;
+}
+.myans
+{   font-size:1rem ;
+    color:red;  
+}
+.output
+{
+    display:none;
+}
+
+
+
+.scorearea
+{
+    display:none;
+}

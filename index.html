@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Qviz website</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-div">
+            <div class="inner-div">
+                <div class="data">
+                <h2 class="question">Question</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="ans" id="ans1" class="answer">
+                        <label id="option1"></label>
+                    </li>
+                    <li>
+                        <input type="radio" name="ans" id="ans2" class="answer">
+                        <label id="option2"></label>
+                    </li>
+                    <li>
+                        <input type="radio" name="ans" id="ans3" class="answer">
+                        <label id="option3"></label>
+                    </li>
+                    <li>
+                        <input type="radio" name="ans" id="ans4" class="answer">
+                        <label id="option4"></label>
+                    </li>
+                </ul>
+                
+                <div class="output" id="result"><label id="result1" ></label></div>
+                
+
+                <div id="butttons">
+                     <buttton id="submit" class="but1">submit</buttton>
+                      <buttton id="next" class="but1">next</buttton>
+                </div>
+            </div>   
+                <div id="showscore" class="scorearea"></div>
+
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+ 
+    </body>
+</html>
